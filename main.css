@@ -14,9 +14,14 @@ body {
   padding: 148px 24px 85px 24px;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .photos-and-title {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .qa h1 {
@@ -76,6 +81,11 @@ body {
   letter-spacing: normal;
 }
 
+.questions h3:hover {
+  cursor: pointer;
+  color: #f47b56;
+}
+
 .answers {
   display: none;
 }
@@ -84,7 +94,7 @@ body {
   font-size: 12px;
   font-weight: normal;
   color: #787887;
-  line-height: 1.5px;
+  line-height: 15.5px;
 }
 
 .line {
@@ -132,8 +142,12 @@ body {
 
   #box {
     position: absolute;
-    margin-left: -310px;
-    margin-top: 210px;
+    margin-left: -1012px;
+    margin-top: 205px;
+  }
+
+  .box-image {
+    overflow: hidden;
   }
 
   #woman-desktop {
@@ -142,10 +156,6 @@ body {
     margin-top: 70px;
     margin-left: -70px;
   }
-
-  /* #pattern-desktop-image {
-    overflow: hidden;
-  } */
 
   #pattern-desktop {
     width: 388px;
