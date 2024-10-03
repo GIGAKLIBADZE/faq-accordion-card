@@ -16,7 +16,7 @@ Users should be able to:
 ### Links
 
 Solution URL: [https://github.com/GIGAKLIBADZE/faq-accordion-card]
-Live Site URL: [https://gigaklibadze.github.io/interactive-card-details-website/]
+Live Site URL: [https://gigaklibadze.github.io/faq-accordion-card/]
 
 ## My process
 
