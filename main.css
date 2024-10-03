@@ -73,6 +73,10 @@ body {
   margin-top: 40px;
 }
 
+.questions:hover {
+  cursor: pointer;
+}
+
 .questions h3 {
   font-size: 13px;
   font-weight: normal;
@@ -82,7 +86,6 @@ body {
 }
 
 .questions h3:hover {
-  cursor: pointer;
   color: #f47b56;
 }
 
